@@ -28,6 +28,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyDZ0i54if69JhnBAg3Hsvi8-X16guLM78U",
   authDomain: "projeto-40-7633f.firebaseapp.com",
+  databaseURL: "https://projeto-40-7633f-default-rtdb.firebaseio.com",
   projectId: "projeto-40-7633f",
   storageBucket: "projeto-40-7633f.appspot.com",
   messagingSenderId: "722908885697",
@@ -35,8 +36,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 </script>
   <link rel="stylesheet" type="text/css" href="style.css">
